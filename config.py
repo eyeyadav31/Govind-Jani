@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT",9000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT",90000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/94idiv.mp4"
+    "START_IMG_URL", "https://files.catbox.moe/2wgcgl.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/94idiv.mp4"
+    "PING_IMG_URL", "https://files.catbox.moe/2wgcgl.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/k17l19.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/k17l19.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/k17l19.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2wgcgl.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2wgcgl.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/2wgcgl.jpg"
 
 
 def time_to_seconds(time):
